@@ -1,1 +1,1 @@
-console.log("Navegantes Escola Náutica");
+console.log(dados);
