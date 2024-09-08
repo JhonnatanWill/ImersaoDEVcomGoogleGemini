@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jokenpô Geek</title>
+</head>
+
+<body>
+    <header>
+        <h1> . </h1>
+        <h1>Jokenpô Geek</h1>
+        <h2>Pedra - Papel - Tesoura - Lagarto - Spock</h2>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite aqui o item que queres usar!" id="campo-pesquisa">
+            <button onclick="pesquisar()">Verificar</button>
+        </section>
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+        </section>
+        <section>
+        </section>
+      <section id="video-popup" class="popup-container">
+        <button onclick="abrirPopup()">Abrir Pop-up</button>
+  
+        <div id="popup" class="popup">
+          <span class="close">&times;</span>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LgFR6fZfy6w?si=PJlOH9skSZ1cW4fw&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p>2024 - Jokenpô Geek - Criado por Jhonnatan Willian</p>
+        <p>Entre em contato. E-mail: drjhonnatanwillian@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
