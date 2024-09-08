@@ -2,12 +2,14 @@ let dados = [
     {
         titulo: "Alok Achkar Peres Petrillo",
         descricao: "Alok, é um DJ e produtor musical brasileiro de música eletrônica. Nascido em Goiânia, Alok ganhou destaque no cenário internacional com seu estilo único que mistura house music com influências brasileiras. Ele é reconhecido por hits como 'Hear Me Now' e 'Fuego' e é considerado um dos maiores DJs do mundo, frequentemente figurando nas listas de melhores DJs da revista DJ Mag. Além de sua carreira musical, Alok também é conhecido por seu trabalho humanitário e seu envolvimento em causas sociais.",
-        link: "https://www.youtube.com/channel/UCQlaArsZfebRbb70iXm6usg"
+        link: "https://www.youtube.com/channel/UCQlaArsZfebRbb70iXm6usg",
+        tags: "musica brasileiro melhor"
     },
     {
         titulo: "Cat Dealers",
         descricao: "Cat Dealers é uma dupla de DJs e produtores musicais brasileiros, formada pelos irmãos Pedro e Lugui. Conhecidos por suas apresentações energéticas e sets que misturam elementos do house e techno, os Cat Dealers conquistaram um grande público no Brasil e no exterior. A dupla é reconhecida por hits como 'Keep On Lovin' e 'Why Don't U Love'.",
-        link: "https://www.youtube.com/channel/UChbV7GOWui74FJoHLCLwVSw"
+        link: "https://www.youtube.com/channel/UChbV7GOWui74FJoHLCLwVSw",
+        tags: "dupla gatos eletronica"
     },
     {
         titulo: "Vintage Culture",
